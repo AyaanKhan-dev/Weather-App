@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+<div class="card">
+    <div>
+<h1 class="h1">WEATHER APP</h1>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="ENTER CITY NAME" spellcheck="false">
+        <button class="searchBtn">
+            <img src="images/search.png" class="searchBtnImg">
+        </button>
+    </div>
+
+    <div class="error"></div>
+<div class="weather" style="display:none;">
+    <img src="images/weather.png" class="weather-icon weatherSty">
+
+    <h1 class="temp">--°C</h1>
+    <h2 class="city">City</h2>
+
+    <div class="details">
+
+        <div class="col">
+            <img src="images/wind.png" class="ex-style">
+            <p class="feels">--°C</p>
+            <p>FEELS LIKE</p>
+        </div>
+
+        <div class="col">
+            <img src="images/humidity.png" class="ex-style">
+            <p class="humidity">--%</p>
+            <p>HUMIDITY</p>
+        </div>
+
+        <div class="col">
+            <img src="images/wind.png" class="ex-style">
+            <p class="wind">-- km/h</p>
+            <p>WIND SPEED</p>
+        </div>
+
+        <div class="col">
+            <img src="images/weather.png" class="ex-style">
+            <p class="pressure">-- hPa</p>
+            <p>PRESSURE</p>
+        </div>
+
+        <div class="col">
+            <img src="images/visibility.png" class="ex-style">
+            <p class="visibility">-- km</p>
+            <p>VISIBILITY</p>
+        </div>
+    </div>
+</div>
+<audio id="clickSound" src="Sounds/radar-ping.mp3" preload="auto"></audio>
+<audio id="typeSound" src="Sounds/type-sound.mp3" preload="auto"></audio>
+
+<script src="weather.js"></script>
+</body>
+</html>
