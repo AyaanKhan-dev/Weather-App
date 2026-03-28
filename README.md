@@ -4,8 +4,8 @@ Image Display of Weather,
 Temperature Display, and
 Humidity, Air Pressure, Feels Like Temperature, Wind Direction, etc
 
-In the project, you have to enter the name of any city and all details will be displayed.
+In the project, you have to enter the name of any city, and all details will be displayed.
 
-Many more features were added to this project like *Keyboard Typing Sound Effect* and *Animation EFfects*
+Many more features were added to this project, like *Keyboard Typing Sound Effect* and *Animation Effects*
 
-This project is originally created by *Ayaan Khan*
+This project was originally created by *Ayaan Khan*
